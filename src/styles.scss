@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/c3/c3.min.css";
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.chart{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: .5em;
+
+    *:first-child{
+        grid-column: 1 / 4;
+    }
+    *:last-child{
+        grid-column: 4 / 7;
+    }
+}
+
+// @media only screen and (max-width: 960px){
+
+    
+//         .chart > *{
+//             grid-column: 1 / 7;
+//             background-color: lightblue;
+//         }
+    
+// }
